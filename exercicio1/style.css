@@ -3,16 +3,29 @@
   padding: 0;
 }
 
+.containerMain{
+  background-color: black;
+  display: flex;
+  justify-content: center;
+}
 .container {
   height: 100vh;
-  width: 100vw;
+  width: 70vw;
   background-color: lightgray;
   display: flex;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+
 }
 
 .item {
   border: 1px solid black;
   background-color: white;
-  height: 180px;
-  width: 180px;
+  height: 140px;
+  width: 140px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
